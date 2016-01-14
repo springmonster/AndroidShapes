@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shapeview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.khch.androidshapes.ShapeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lean"
+                shapeview:shape_type="shape_rect_round_corner">
+            </com.khch.androidshapes.ShapeView>
+
+            <com.khch.androidshapes.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lean"
+                shapeview:shape_type="shape_circle">
+            </com.khch.androidshapes.ShapeView>
+
+            <com.khch.androidshapes.ShapeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lean"
+                shapeview:shape_type="shape_square">
+            </com.khch.androidshapes.ShapeView>
+
+            <com.khch.androidshapes.ShapeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lean"
+                shapeview:shape_type="shape_stars">
+            </com.khch.androidshapes.ShapeView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
