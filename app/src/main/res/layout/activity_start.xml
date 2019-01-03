@@ -7,4 +7,16 @@
         android:layout_height="match_parent"
         tools:context="com.khch.StartActivity">
 
+    <Button
+            android:id="@+id/activity_start_shape_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="shape"/>
+
+    <Button
+            app:layout_constraintTop_toBottomOf="@id/activity_start_shape_btn"
+            android:id="@+id/activity_start_animator_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="animator"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
